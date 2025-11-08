@@ -1,4 +1,4 @@
-num = int(input('number '))
-for r in range(1,13):
-    pro = num*r
-    print(f'{num} * {r} = {pro}')
+for r in range(1,100):
+    if r % 7 == 0 :
+        print(r)
+    else: continue
